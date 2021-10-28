@@ -1,0 +1,326 @@
+
+:root{
+    --amarillo:#F4DD61;
+    --azul:#4CB6D9;
+    --obscuro:rgb(3, 14, 27);
+}
+
+.fadeTop{
+    transform: translate(0, 10vh);
+    transition: all 2.5s;
+}
+
+.fadeRight{
+    transform: translate(10vh, 0vh);
+    transition: all 2.5s;
+}
+
+.fadeLeft{
+    transform: translate(-10vh, 0vh);
+    transition: all 2.5s;
+}
+
+
+.headerAuto{
+    background-image: url("/img/fondo.jpg");
+    min-height: 500px;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fuente-nav{
+    font-family: 'PT Sans', sans-serif;
+    background-color: white;
+    color: var(--obscuro);
+    text-transform: uppercase;
+}
+.fuente-nav a{
+    font-family: 'PT Sans', sans-serif;
+    color: var(--obscuro);
+}
+
+.fuente-nav li{
+    padding: 6px 10px;
+    font-weight: bold;
+}
+.fuente-nav span{
+    color: var(--obscuro);
+}
+
+.fuente-nav a:focus{
+    font-family: 'PT Sans', sans-serif;
+    color: var(--obscuro);
+}
+
+.fuente-nav a:hover{
+    color: var(--azul);
+}
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.automotriz div{
+    background-image: url("/img/auto.jpg");
+    min-height: 500px;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.automotriz header{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+}
+.automotriz header .overlay{
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    color: rgb(255, 255, 255);
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px var(--obscuro);
+}
+
+.automotriz h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+.automotriz h3, p {
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.automotriz button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #333;
+    background: #fff;
+    margin-bottom: 100px;
+    box-shadow: 0 3px 20px 0 #00000083;
+    font-family:'PT Sans', sans-serif;
+    font-weight: bold;
+}
+.automotriz button:hover{
+    cursor: pointer;
+}
+
+.iconos-seccion{
+    background-color: white;
+}
+
+.iconos-seccion h2{
+    font-size: 30px;
+    color: var(--amarillo);
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+    letter-spacing: 0px;
+    text-shadow: 0 0 1px black;
+}
+
+.iconos-seccion h3{
+    font-size: 42px;
+    color: var(--obscuro);
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+.iconos-seccion h4{
+    font-size:15px;
+    color: var(--obscuro);
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.iconos-seccion img{
+    width: 50%;
+    text-align: center;
+}
+
+.segunda-seccion{
+    margin-top: 10%;
+}
+
+.segunda-seccion h2{
+    font-size: 42px;
+    font-family:'Rubik', sans-serif;
+    color: var(--obscuro);
+    font-weight: bold;
+    text-align: right;
+    padding: 0%;
+    margin: 0%;
+    letter-spacing: 0%;
+    margin-left: 20%;
+    padding-left: 20%;
+}
+
+.segunda-seccion img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 42%;
+    text-align: left;
+}
+
+.tercera-seccion{
+    background-image: url("/img/amarillo.jpg");
+    z-index: 2;
+    max-height: 800px;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.tercera-seccion h2{
+    z-index: 4;
+    font-family:'Rubik', sans-serif;
+    color: black;
+    font-size: 42px;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+
+.tercera-seccion button {
+    z-index: 4;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: black;
+    background: #fff;
+    margin-bottom: 100px;
+    box-shadow: 0 3px 20px 0 #00000083;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    font-family:'PT Sans', sans-serif;
+    font-weight: bold;
+}
+.six{
+    background-color: var(--azul);
+    background-image: -webkit-linear-gradient(30deg, #4CB6D9 45%, #F4DD61 45%);
+    min-height: 400px;
+}
+.six img{
+    width: 90%;
+}
+.six p{
+    margin-top: 18%;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    margin-right: 8%;
+    margin-left: 2%;
+}
+.footer-automotriz{
+    background-color: white;
+    color: white;
+    font-weight: bold;
+    text-shadow: #f9f9f9;
+}
+.footer-automotriz a{
+    color: var(--obscuro);
+    font-family: 'PT Sans', sans-serif;
+}
+.footer-automotriz a:hover{
+    color: var(--azul);
+}
+.footer-automotriz img{
+    width: 4%;
+}
+.footer-automotriz img:hover{
+    width: 4.1%;
+}
+.footer-automotriz p{
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+}
+.hide{
+    display: block;
+}
+.label-sebs{
+    text-align: left;
+    font-size: 18px;
+    justify-content: left !important;
+}
+.modal-sebs{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    height: 35px;
+    width: 90%;
+    font-size: 16px;
+    border-radius: 0.2rem;
+    border-color: #ddd;
+    border-width: thin;
+    font-family: 'PT Sans', sans-serif;
+}
+.modal-sebs::placeholder{
+    color: grey;
+}
+
+@media (max-width: 900px){
+    .automotriz h1{
+        font-family: 'Rubik', sans-serif;
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    .hide{
+        display: none;
+    }
+    .segunda-seccion h2{
+        font-size: 35px;
+        text-align: right;
+        margin-left: 5%;
+        padding-left: 5%;
+        margin-top: 0%;
+    }
+    .segunda-seccion img{
+        width: 80%;
+        text-align: left;
+    }
+    .six img{
+        margin-top: 60%;
+        width: 190%;
+    }
+    .six p{
+        margin-top: 20%;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        margin-right: 8% !important;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .footer-automotriz img{
+        width: 10%;
+    }
+    .footer-automotriz img:hover{
+        width: 10.1%;
+    }
+
+}
+
